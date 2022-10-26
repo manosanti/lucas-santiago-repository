@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --background-color: #080D1A;
+    --nav-color: #0C1223;
+    --span-color: #4057B0;
+    --second-title: #CFD5E7;
+    --p-text: #6C6F79;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+/*========== NavBar ==========*/
+
+i{
+    color: #fff;
+}
+
+a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+.nav{
+    background-color: var(--nav-color);
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 0.7fr 2fr 0.7fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-bottom: 60px;
+}
+
+.juntar{
+    justify-content: space-between;
+    display: flex;
+}
+
+/*========== Body - Hero ==========*/
+
+.container{
+    display: grid;
+    grid-template-columns: 0.7fr 2fr 0.7fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+    
+.div1{
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+p{
+    font-size: 18px;
+    color: var(--p-text);
+    width: 90%;
+}
+
+h3{
+    font-size: 30px;
+    margin-bottom: 16px;
+    color: var(--second-title);
+    font-weight: 400;
+}
+
+h2{
+    font-size: 45px;
+    color: #fff;
+}
+
+span{
+    color: var(--span-color);
+}
+
+.ppp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    border-radius: 6rem 0 6rem 0;
+}
+
+.btn1{
+    background: #111827;
+    box-shadow:inset 0px 0px 0px 2.4px rgb(65,88,182);
+}
+
+button{
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #fff;
+    background: rgb(65,88,182);
+    background: linear-gradient(90deg, rgba(65,88,182,1) 0%, rgba(65,88,182,1) 0%, rgba(41,61,140,1) 50%, rgba(65,88,182,1) 100%);
+    width: 190px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.btn-icon{
+    font-size: 20px;
+    margin-right: 10px;
+}
