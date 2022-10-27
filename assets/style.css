@@ -62,6 +62,10 @@ a{
     grid-area: 1 / 2 / 2 / 3;
 }
 
+.p-class{
+    font-size: 16.6px;
+}
+
 p{
     font-size: 18px;
     color: var(--p-text);
@@ -136,7 +140,7 @@ button{
 }
 
 .flex{
-    width: 60%;
+    width: 65%;
 }
 
 .icons{
