@@ -9,7 +9,7 @@
 :root{
     --background-color: #080D1A;
     --nav-color: #0C1223;
-    --span-color: #4057B0;
+    --span-color: #5E7EFF;
     --second-title: #CFD5E7;
     --p-text: #6C6F79;
 }
@@ -80,14 +80,20 @@ h2{
     color: #fff;
 }
 
+h4{
+    font-size: 30px;
+    color: #fff;
+}
+
 span{
     color: var(--span-color);
 }
 
-.ppp{
+.about-me{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 10rem;
 }
 
 img{
@@ -114,4 +120,39 @@ button{
 .btn-icon{
     font-size: 20px;
     margin-right: 10px;
+}
+
+.juntar2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-bottom: 8rem;
+}
+
+.icons{
+    display: flex;
+}
+
+.flex{
+    width: 60%;
+}
+
+.icons{
+    margin-top: 10px;
+}
+
+.services{
+    text-align: center;
+}
+
+.p-services{
+    width: 100%;
+}
+
+.h2-services{
+    color: var(--span-color);
+    font-size: 17px;
+    font-weight: 100;
 }
