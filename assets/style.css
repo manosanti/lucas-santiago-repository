@@ -157,6 +157,7 @@ button{
 
 .h2-services{
     color: var(--span-color);
-    font-size: 17px;
+    font-size: 16.5px;
     font-weight: 100;
+    margin-bottom: 10px;
 }
