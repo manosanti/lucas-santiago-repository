@@ -161,3 +161,26 @@ button{
     font-weight: 100;
     margin-bottom: 10px;
 }
+
+.services-card{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.design-card{
+    border-radius: 1rem;
+    background-color: var(--span-color);
+    width: 20%;
+    text-align: center;
+}
+
+.design-card-title{
+    color: white;
+    font-size: 20px;
+}
+
+.design-card-p{
+    width: 100%;
+    font-size: 17px;
+}
