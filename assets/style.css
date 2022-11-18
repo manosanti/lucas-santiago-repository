@@ -188,17 +188,18 @@ button{
 
 .works{
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .cardsss{
     display: flex;
-    justify-content: space-around;
 }
 
 .work-card{
     border-radius: 10px;
     text-align: start;
     background-color: var(--card-background);
+    margin-bottom: 60px;
 }
 
 .work-card-img{
@@ -223,4 +224,20 @@ button{
 
 .circle-icon{
     margin: 0px 0px 0px 10px;
+}
+
+.p-works{
+    margin-left: 10px;
+}
+
+.subclass{
+    display: flex;
+}
+
+.subtitle-tag-card{
+    font-size: 16px;
+    margin: 10px 7px;
+    background-color: #1A2131;
+    padding: 7px;
+    border-radius: 1rem;
 }
